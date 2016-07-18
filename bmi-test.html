@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BMI Test</title>
+	<link rel="stylesheet" href="css/bmi.css">	
+</head>
+<body>
+	<div class="wrapper">
+		<nav>
+			<ul>
+				<li id="metricTab" class="tab active">Metric</li>
+				<li id="impTab" class="tab">Imperial</li>
+			</ul>
+		</nav>
+		<h1 class="">0.0</h1>
+		<div class="metric">
+			<div>
+				<label for="metHeight">Height</label>
+				<input type="text" id="metHeight" placeholder="Centimetres">
+			</div>
+			<div>
+				<label for="metWeight">Weight</label>
+				<input type="text" id="metWeight" placeholder="Kilograms">
+			</div>
+		</div>
+		<div class="imp">
+			<label for="impHeight">Height</label>
+			<div>
+				<input type="text" id="impHeight" placeholder="Feet">
+				<input type="text" id="impInch" placeholder="Inches">
+			</div>
+			<label for="impWeight">Weight</label>
+			<input type="text" id="impWeight" placeholder="Lbs">
+		</div>
+		
+		<button type="submit" onclick="" class="bmiCalc">Get BMI</button>
+	</div>
+	<script src="https://fb.me/react-15.0.0.js"></script>
+    <script src="https://fb.me/react-dom-15.0.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<script src="src/bmi.js"></script>
+</body>
+</html>

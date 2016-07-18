@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+  background: #E91E63;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none; }
+
+ul {
+  list-style: none; }
+
+button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #fff;
+  background: #f06493;
+  border: none; }
+
+button, input {
+  font-size: 18px; }
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px; }
+  .wrapper h1 {
+    font-size: 72px;
+    margin: 0 auto 40px; }
+  .wrapper input[type="text"] {
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin: 0 0 20px;
+    width: 100%; }
+  .wrapper label {
+    display: flex;
+    margin-bottom: 20px; }
+  .wrapper nav {
+    background: #C2185B;
+    box-sizing: border-box;
+    margin: -20px -20px 40px -20px; }
+    .wrapper nav ul {
+      display: flex;
+      justify-content: space-around;
+      width: 100%; }
+      .wrapper nav ul li {
+        padding: 20px;
+        width: 50%;
+        text-align: center;
+        background: #C2185B;
+        text-transform: uppercase; }
+        .wrapper nav ul li.active {
+          background: #E91E63;
+          font-weight: bold; }
+  .wrapper .imp {
+    display: none; }
+    .wrapper .imp div {
+      display: flex;
+      justify-content: space-between;
+      width: 100%; }
+      .wrapper .imp div label {
+        width: 100%; }
+      .wrapper .imp div input {
+        width: 50%; }
+        .wrapper .imp div input:first-of-type {
+          margin-right: 10px; }
+        .wrapper .imp div input:last-of-type {
+          margin-left: 10px; }
+  .wrapper .metric {
+    display: flex;
+    justify-content: space-between; }
+    .wrapper .metric div {
+      width: 50%; }
+      .wrapper .metric div:first-of-type {
+        margin-right: 10px; }
+      .wrapper .metric div:last-of-type {
+        margin-left: 10px; }
+
+/*# sourceMappingURL=bmi.css.map */
