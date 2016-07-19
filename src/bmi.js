@@ -19,7 +19,8 @@ $(document).ready(function(){
 		var metWeightConvert = (1 / 2.2) * metWeight;	//	Divide 1kg by 2.2 then multiply by the weight to get Lbs to Kgs conversion
 		var metHeightConvert = metHeight * metHeight;	//	Multiply height by height
 		var bmiMetric = (metWeightConvert / metHeightConvert).toString(); //  Divide converted weight by converted height and convert to string		
-		
+		//var metWeightOutput = metWeightConvert.toString();
+
 		var impWeight = $('#impWeight').val() * 0.45;
 		var impHeight = ($('#impHeight').val() * 12) * 0.025;
 		var impInches = $('#impInch').val();
@@ -30,6 +31,7 @@ $(document).ready(function(){
 		
 		if($('.metric').is(":visible")) {
 			result.text(bmiMetric.substring(0,5));
+		//	$('#metWeight').val(metWeightOutput.substring(0,5));
 		} else {
 			result.text(bmiImp.substring(0,5));
 		}
