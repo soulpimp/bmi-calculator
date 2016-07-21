@@ -3,7 +3,7 @@ body {
   background: #E91E63;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px; }
+  font-size: 1em; }
 
 * {
   padding: 0;
@@ -22,7 +22,7 @@ button {
   border: none; }
 
 button, input {
-  font-size: 18px; }
+  font-size: 1.125em; }
 
 .wrapper {
   display: flex;
@@ -38,7 +38,7 @@ button, input {
     .wrapper {
       max-width: 100%; } }
   .wrapper h1 {
-    font-size: 72px;
+    font-size: 4.5em;
     margin: 0 auto 40px; }
   .wrapper input[type="number"] {
     padding: 10px;

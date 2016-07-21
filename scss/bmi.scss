@@ -4,13 +4,19 @@ $active-pink: #E91E63;
 $inactive-pink: #C2185B;
 $white: #fff;
 
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
 
 
 body {
 	background: $active-pink;
 	color: $white;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: em(16);
 }
 
 * {
@@ -33,7 +39,7 @@ button {
 }
 
 button, input {
-	font-size: 18px;
+	font-size: em(18);
 }
 
 .wrapper {
@@ -52,7 +58,7 @@ button, input {
 	}
 
 	h1 {
-		font-size: 72px;
+		font-size: em(72);
 		margin: 0 auto 40px;
 	}
 
