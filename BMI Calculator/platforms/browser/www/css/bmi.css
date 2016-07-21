@@ -34,7 +34,7 @@ button, input {
   box-sizing: border-box;
   width: 100%;
   max-width: 800px; }
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     .wrapper {
       max-width: 100%; } }
   .wrapper h1 {
