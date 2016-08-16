@@ -1,2 +1,2 @@
 # bmi-calculator
-BMI Calculator that I wrote to learn jquery
+BMI Calculator that I wrote to learn phone gap.
